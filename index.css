@@ -1,0 +1,35 @@
+.Products{
+    display: flexbox;
+}
+.card{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 3px 3px 5px gray;
+}
+.itemtitle{
+    width: 200px;
+}
+.itembtn{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: white;
+    background-color: darkmagenta;
+    color: white;
+    font-weight: bold;
+}
+.buy{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: white;
+    background-color: darkmagenta;
+    color: white;
+    font-weight: bold;
+    float: right;
+}

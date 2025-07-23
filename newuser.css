@@ -1,0 +1,74 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right,#8B008B, #D8BFD8);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 450px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: darkorange;
+      text-align: center;
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    h4 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: #8B008B;
+      margin-bottom: 20px;
+      font-size: 20px;
+      text-align: left;
+    }
+
+    form {
+      display: flexbox;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      background-color: #FFF5EE; /* Seashell */
+    }
+
+    button {
+      background-color: darkorange;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #6a006a;
+    }
+
+    .submit-btn {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    a {
+      text-decoration: none;
+    }
